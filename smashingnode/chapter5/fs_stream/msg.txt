@@ -1,0 +1,2 @@
+root@LAPTOP-F45N70P3:/home/codes/nodejs/packages/smashingnode/chapter5/fs_stream# pnpm init
+Wrote to /home/codes/nodejs/packages/smashingnode/chapter5/fs_stream/package.json
