@@ -1,0 +1,30 @@
+123456789我的手好冷啊write done :
+root@LAPTOP-F45N70P3:/home/codes/nodejs/packages/7_Stream# node 04_stream_duplex.js 
+root@LAPTOP-F45N70P3:/home/codes/nodejs/packages/7_Stream# git status
+On branch main
+Your branch is ahead of 'origin/main' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../fs/01_fs_api.js
+        deleted:    ../fs/02_md_to_html.js
+        deleted:    ../fs/04_fs_read_write.js
+        deleted:    ../fs/05_copy_file.js
+        deleted:    ../fs/06_dir.js
+        deleted:    ../fs/07_mkdir_sync.js
+        deleted:    ../fs/08_mkdir_async.js
+        deleted:    ../fs/09_custom_dir.js
+        deleted:    ../fs/data.txt
+        deleted:    ../fs/github.css
+        deleted:    ../fs/index.md
+        deleted:    ../fs/test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../6_fs/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+root@LAPTOP-F45N70P3:/home/codes/nodejs/packages/7_Stream# git add .
+root@LAPTOP-F45N70P3:/home/codes/nodejs/packages/7_Stream# git push
