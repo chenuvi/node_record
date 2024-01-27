@@ -5,8 +5,22 @@ const client = net.createConnection({
   host: "127.0.0.1",
 });
 
+const dataArr = [
+  "水冷了呢1",
+  "水冷了呢2",
+  "水冷了呢3",
+  "水冷了呢4",
+  "水冷了呢5",
+];
+
 client.on("connect", () => {
-  client.write("水冷了呢");
+  dataArr.forEach((val, index) => {
+    (function () {
+      setTimeout(() => {
+        client.write(val);
+      }, 1000 * index + 1);
+    })();
+  });
 });
 
 client.on("data", (chunk) => {
